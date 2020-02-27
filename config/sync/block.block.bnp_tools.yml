@@ -1,0 +1,27 @@
+uuid: 91b80e88-e72a-4f5e-99fb-4ebdb2a1891e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - bnp
+_core:
+  default_config_hash: SrPItPkAevw9hGX_v5AfsVyw6vkoog7ZVLSJYqwsBHc
+id: bnp_tools
+theme: bnp
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

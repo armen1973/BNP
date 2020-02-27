@@ -1,0 +1,22 @@
+uuid: 7785f9ac-38cf-4f13-9303-f8cb9f0c25c7
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - bnp
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: bnp_local_tasks
+theme: bnp
+region: header
+weight: 10
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

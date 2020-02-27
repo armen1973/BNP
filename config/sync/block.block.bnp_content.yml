@@ -1,0 +1,22 @@
+uuid: c658a8ea-9f65-47d6-9583-177cf28aa992
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bnp
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: bnp_content
+theme: bnp
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

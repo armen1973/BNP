@@ -1,0 +1,22 @@
+uuid: b14ef6a4-ae26-4f49-beea-356f12ebc3f5
+langcode: fr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - bnp
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: bnp_help
+theme: bnp
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
